@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betty Xie | Portfolio</title>
+  <meta name="description" content="Betty Xie 在零传媒完成的 51 篇国际新闻作品档案。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="news-page">
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="主导航">
+      <a class="brand" href="index.html#hero" aria-label="返回首页">Betty Xie</a>
+      <button class="nav-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#notes">Internship notes</a>
+        <a href="#coverage">Coverage map</a>
+        <a href="#archive">Published works</a>
+        <a class="nav-home-link" href="index.html#hero">返回主页</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="news-hero">
+      <div class="section-inner">
+        <div class="news-kicker"><span>Internship Portfolio</span><span>Hong Kong · 2023—2026</span></div>
+        <div class="news-hero-grid">
+          <div class="reveal">
+            <p class="eyebrow">国际新闻写作档案</p>
+            <h1>零传媒实习<br><span>国际新闻写作作品集</span></h1>
+          </div>
+          <p class="news-deck reveal">2023—2026年，我在零传媒参与国际新闻栏目写作，共完成51篇新闻作品，内容涵盖国际政治、社会议题、经济动态与公共事件报道。</p>
+        </div>
+        <div class="news-stats reveal" aria-label="作品集数据">
+          <div><strong>51<small>篇</small></strong><span>新闻作品</span></div>
+          <div><strong>2023—2026</strong><span>时间跨度</span></div>
+          <div><strong>国际新闻</strong><span>主要方向</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news-learning" id="notes">
+      <div class="section-inner">
+        <div class="news-section-head reveal"><p class="eyebrow">Internship Notes</p><h2>从资料到公共叙事</h2></div>
+        <div class="learning-grid">
+          <article class="learning-card reveal"><span>01 / WORK</span><h3>我的主要工作</h3><p>负责国际新闻选题、外媒资料整理、新闻背景梳理与中文稿件写作，长期关注海外政治、社会、经济与公共议题。</p></article>
+          <article class="learning-card reveal"><span>02 / SKILLS</span><h3>我的能力提升</h3><p>这段经历训练了我快速理解复杂国际事件、筛选有效信息、搭建新闻结构、用清晰中文解释海外议题的能力。</p></article>
+          <article class="learning-card reveal"><span>03 / INSIGHT</span><h3>我的最大收获</h3><p>我逐渐理解新闻写作不仅是信息转述，更是把复杂事件转化为读者能够理解的公共叙事。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section coverage-section" id="coverage">
+      <div class="section-inner coverage-grid">
+        <div class="news-section-head reveal"><p class="eyebrow">Coverage Map</p><h2>我的报道领域</h2><p>51 篇报道中的议题分布</p></div>
+        <div class="coverage-bars reveal">
+          <div class="coverage-row"><div><span>美国政治与总统选举</span><strong>13篇</strong></div><i style="--value:100%"></i></div>
+          <div class="coverage-row"><div><span>国际冲突与地缘政治</span><strong>12篇</strong></div><i style="--value:92.3%"></i></div>
+          <div class="coverage-row"><div><span>世界政坛观察</span><strong>11篇</strong></div><i style="--value:84.6%"></i></div>
+          <div class="coverage-row"><div><span>国际经济与科技</span><strong>8篇</strong></div><i style="--value:61.5%"></i></div>
+          <div class="coverage-row"><div><span>社会热点与公共事件</span><strong>7篇</strong></div><i style="--value:53.8%"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="section-inner">
+        <div class="archive-title reveal">
+          <div><p class="eyebrow">Published Works</p><h2>新闻作品 <em>Archive</em></h2></div>
+          <p id="resultCount" aria-live="polite">共 51 篇作品</p>
+        </div>
+        <div class="filter-panel reveal">
+          <div class="filter-row"><span>年份</span><div class="filter-buttons" id="yearFilters" aria-label="按年份筛选"></div></div>
+          <div class="filter-row"><span>主题</span><div class="filter-buttons" id="topicFilters" aria-label="按主题筛选"></div></div>
+        </div>
+        <div class="news-timeline" id="newsTimeline"></div>
+        <p class="empty-state" id="emptyState" hidden>暂无符合两个筛选条件的作品。</p>
+      </div>
+    </section>
+
+    <section class="news-closing">
+      <div class="section-inner reveal">
+        <span>Looking Back</span>
+        <p>这段长期实习经历让我建立了对国际新闻生产流程的基本理解，也让我在持续写作中形成了更稳定的选题判断、资料整合与跨文化叙事能力。</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© 2026 Betty Xie. Portfolio for journalism, media and communication opportunities.</p></footer>
+  <script src="protect.js"></script>
+  <script src="news-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
